@@ -1,0 +1,37 @@
+body{
+background-size: cover;
+background-position: center;
+}
+h1{
+    font-size: 30px!important;
+    width: 100%;
+    margin-top: 0px;
+}
+button{
+    margin-top: 30px;
+    font-size: 20px !important;
+}
+h2{
+    font-size: 25px !important;
+    margin-top:32px
+}
+div{
+    background-color: tomato;
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    line-height: 3;
+    animation-name: ava;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes ava {
+    0%{box-shadow: 2px 2px 50px violet;}
+    25%{box-shadow: 2px 2px 50px rgb(95, 10, 95);}
+    50%{box-shadow: 2px 2px 50px rgb(10, 90, 104);}
+    75%{box-shadow: 2px 2px 50px rgb(15, 202, 226);}
+    100%{box-shadow: 2px 2px 50px rgb(4, 229, 245);}
+}
